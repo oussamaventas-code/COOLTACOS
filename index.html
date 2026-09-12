@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cool Tacos Murcia · Tacos Franceses</title>
+  <meta name="description" content="Cool Tacos: tacos franceses en Murcia. Queso fundido, patatas dentro y salsas de la casa. Pide por WhatsApp o Uber Eats. C. Alhelíes 1 · 4,9★ en Google.">
+  
+  <meta property="og:title" content="Cool Tacos Murcia · Tacos Franceses">
+  <meta property="og:description" content="Cool Tacos: tacos franceses en Murcia. Queso fundido, patatas dentro y salsas de la casa. Pide por WhatsApp o Uber Eats. C. Alhelíes 1 · 4,9★ en Google.">
+  <meta property="og:image" content="/assets/hero.jpg">
+  
+  <link rel="icon" href="/assets/logo.png">
+  
+  <!-- Google Fonts: Anton + Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <script type="module" src="/src/main.js" defer></script>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-container">
+      <a href="#inicio" class="header-logo">
+        <img src="/assets/logo.png" alt="Cool Tacos Logo" class="header-logo-img">
+        <span>Cool Tacos</span>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="header-nav">
+        <a href="#inicio" class="header-nav-link">Inicio</a>
+        <a href="#carta" class="header-nav-link">Carta</a>
+        <a href="#nosotros" class="header-nav-link">Nosotros</a>
+        <a href="#ubicacion" class="header-nav-link">Ubicación</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="https://wa.me/34634341293?text=Hola%20Cool%20Tacos%2C%20quiero%20hacer%20un%20pedido" target="_blank" class="header-btn-pedir ct-hard-sm">
+          Pedir
+        </a>
+        <button id="mobile-menu-btn" class="header-btn-mobile" aria-label="Abrir menú">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MOBILE DRAWER -->
+  <div id="mobile-drawer" class="drawer-menu">
+    <button id="mobile-menu-close" class="drawer-close" aria-label="Cerrar menú">✕</button>
+    <nav class="drawer-nav">
+      <a href="#inicio" class="drawer-nav-link"><sup>01</sup> Inicio</a>
+      <a href="#carta" class="drawer-nav-link"><sup>02</sup> Carta</a>
+      <a href="#nosotros" class="drawer-nav-link"><sup>03</sup> Nosotros</a>
+      <a href="#ubicacion" class="drawer-nav-link"><sup>04</sup> Ubicación</a>
+    </nav>
+    <a href="https://wa.me/34634341293?text=Hola%20Cool%20Tacos%2C%20quiero%20hacer%20un%20pedido" target="_blank" class="drawer-btn">
+      Pedir ahora
+    </a>
+  </div>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section id="inicio" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-stamp ct-stamp">Tacos franceses en Murcia</div>
+          <h1 class="hero-h1">
+            EL TACO QUE<br>
+            <span class="highlight">NO ESPERABAS.</span>
+          </h1>
+          <p class="font-body" style="font-size: 1.25rem; color: rgba(246, 238, 223, 0.8); margin-bottom: 2rem;">
+            Queso fundido, patatas dentro y salsas de la casa.
+          </p>
+          
+          <div class="hero-ctas">
+            <a href="#carta" class="hero-cta hero-cta-primary ct-hard">Ver la carta</a>
+            <a href="https://wa.me/34634341293?text=Hola%20Cool%20Tacos%2C%20quiero%20hacer%20un%20pedido" target="_blank" class="hero-cta hero-cta-secondary ct-hard">Pedir por WhatsApp</a>
+          </div>
+          
+          <div class="hero-trust">
+            <span class="hero-trust-dot animate-pulse"></span> Abierto hasta las 00:00
+            &nbsp; | &nbsp;
+            <span style="color: var(--ct-yellow)">★</span> 4,9 ★ · 758 reseñas en Google
+          </div>
+        </div>
+        
+        <div class="hero-image-wrapper ct-hard-cream">
+          <img src="/assets/taco-frances-1.png" alt="Taco Francés partido mostrando su relleno de queso y patatas">
+        </div>
+      </div>
+    </section>
+
+    <!-- MARQUEE BANNER -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-inner">
+        <span class="marquee-item">TACO FRANCÉS ★ MURCIA ★ QUESO FUNDIDO ★ SALSAS DE LA CASA ★ PATATAS DENTRO ★ DESDE 2026 ★</span>
+        <span class="marquee-item">TACO FRANCÉS ★ MURCIA ★ QUESO FUNDIDO ★ SALSAS DE LA CASA ★ PATATAS DENTRO ★ DESDE 2026 ★</span>
+        <span class="marquee-item">TACO FRANCÉS ★ MURCIA ★ QUESO FUNDIDO ★ SALSAS DE LA CASA ★ PATATAS DENTRO ★ DESDE 2026 ★</span>
+        <span class="marquee-item">TACO FRANCÉS ★ MURCIA ★ QUESO FUNDIDO ★ SALSAS DE LA CASA ★ PATATAS DENTRO ★ DESDE 2026 ★</span>
+      </div>
+    </div>
+
+    <!-- RAZONES SECTION -->
+    <section class="razones">
+      <div class="container">
+        <div class="text-center">
+          <div class="section-label">El secreto</div>
+          <h2 class="section-h2">5 RAZONES PARA PROBAR COOL TACOS.</h2>
+        </div>
+        <div id="razones-grid" class="razones-grid">
+          <!-- Rendered by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- CARTA SECTION -->
+    <section id="carta" class="carta scroll-mt-16">
+      <div class="container">
+        <div class="text-center">
+          <div class="section-label">La carta</div>
+          <h2 class="section-h2">LA CARTA</h2>
+          <p style="font-size: 1.125rem; color: rgba(20, 20, 20, 0.7); margin-bottom: 3rem; margin-top: -1.5rem;">
+            Todo se hace al momento. Precio medio: 10–20€ por persona.
+          </p>
+        </div>
+        <div id="productos-carta-grid" class="carta-grid">
+          <!-- Rendered by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- NOSOTROS SECTION -->
+    <section id="nosotros" class="nosotros scroll-mt-16">
+      <div class="container nosotros-grid">
+        <div class="nosotros-content">
+          <div class="section-label">Nosotros</div>
+          <h2 class="nosotros-h2">
+            MUCHO QUESO.<br>
+            MUCHA SALSA.<br>
+            <span class="highlight-line">POCAS EXCUSAS.</span>
+          </h2>
+          <div id="stats-grid" class="nosotros-stats">
+            <!-- Rendered by JS -->
+          </div>
+        </div>
+        <div class="nosotros-collage">
+          <div class="nosotros-img ct-hard-cream img-main">
+            <img src="/assets/nosotros-2.png" alt="Interior Local Mesas">
+          </div>
+          <div class="nosotros-img ct-hard-cream img-sub1">
+            <img src="/assets/nosotros-3.png" alt="Interior Barra">
+          </div>
+          <div class="nosotros-img ct-hard-cream img-sub2">
+            <img src="/assets/nosotros-1.png" alt="Exterior Local">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAMOSOS SECTION -->
+    <section id="famosos" class="famosos scroll-mt-16">
+      <div class="container">
+        <div class="text-center">
+          <div class="section-label">Gente famosa</div>
+          <h2 class="section-h2">HABLAN DE NOSOTROS</h2>
+        </div>
+        <div class="famosos-grid">
+          <div class="famosos-video ct-hard">
+            <video src="/assets/tacos-promo.mp4" width="100%" height="580" autoplay loop muted playsinline style="object-fit: cover; border: none; outline: none; background-color: #000; display: block;"></video>
+          </div>
+          <div class="famosos-video ct-hard">
+            <iframe src="https://www.instagram.com/reel/DWWvs1VAmzn/embed" width="100%" height="580" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+          </div>
+          <div class="famosos-video ct-hard">
+            <iframe src="https://www.instagram.com/reel/DQ7K8GGDeh9/embed" width="100%" height="580" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- UBICACION SECTION -->
+    <section id="ubicacion" class="ubicacion scroll-mt-16">
+      <div class="container ubicacion-grid">
+        <div class="ubicacion-info">
+          <div>
+            <div class="section-label">Ubicación</div>
+            <h2 class="section-h2" style="margin-bottom: 1.5rem;">VEN A POR TU TACO.</h2>
+          </div>
+          
+          <div>
+            <p class="info-block-label">Dirección</p>
+            <p class="info-block-value">C. Alhelíes, 1 · 30009 Murcia</p>
+          </div>
+          
+          <div>
+            <p class="info-block-label">Horario</p>
+            <p class="info-block-value">Lunes a Domingo · 12:30 a 00:00</p>
+          </div>
+          
+          <div>
+            <p class="info-block-label">Teléfono</p>
+            <p class="info-block-value"><a href="tel:634341293">634 34 12 93</a></p>
+          </div>
+          
+          <div class="hero-ctas" style="margin-bottom: 0; margin-top: 1rem;">
+            <a href="https://www.google.com/maps/search/?api=1&query=C.+Alhel%C3%ADes+1,+30009+Murcia,+Espa%C3%B1a" target="_blank" class="hero-cta hero-cta-primary ct-hard">Cómo llegar</a>
+            <a href="#" class="hero-cta hero-cta-secondary ct-hard">Uber Eats</a>
+          </div>
+        </div>
+        
+        <div class="ubicacion-map ct-hard-cream">
+          <iframe src="https://maps.google.com/maps?width=100%25&height=600&hl=es&q=C.+Alhel%C3%ADes+1,+30009+Murcia,+Espa%C3%B1a&t=&z=16&ie=UTF8&iwloc=B&output=embed" width="100%" height="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col" style="grid-column: span 2;">
+          <div class="header-logo" style="margin-bottom: 1rem;">
+            <img src="/assets/logo.png" alt="Cool Tacos Logo" class="header-logo-img">
+            <span>Cool Tacos</span>
+          </div>
+          <p style="color: rgba(246, 238, 223, 0.7); max-width: 24rem; line-height: 1.5;">Tacos franceses en Murcia. Queso fundido, patatas dentro y salsas de la casa.</p>
+        </div>
+        
+        <div class="footer-col">
+          <div class="footer-label">Navegación</div>
+          <a href="#inicio" class="footer-link">Inicio</a>
+          <a href="#carta" class="footer-link">Carta</a>
+          <a href="#nosotros" class="footer-link">Nosotros</a>
+          <a href="#ubicacion" class="footer-link">Ubicación</a>
+        </div>
+        
+        <div class="footer-col">
+          <div class="footer-label">Contacto</div>
+          <a href="https://wa.me/34634341293?text=Hola%20Cool%20Tacos" target="_blank" class="footer-link">WhatsApp</a>
+          <a href="#" class="footer-link">Uber Eats</a>
+          <a href="#" class="footer-link">Instagram</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Cool Tacos. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
